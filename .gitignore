@@ -1,0 +1,39 @@
+# Dependências (A pasta mais pesada do projeto)
+node_modules/
+/.pnp
+.pnp.js
+
+# Pastas de Build (Código que o Vite compila para produção)
+dist/
+dist-ssr/
+*.local
+
+# Logs do Yarn e do sistema
+yarn-debug.log*
+yarn-error.log*
+.yarn/integrity
+.yarn/logs
+.yarn/patches
+.yarn/plugins
+.yarn/releases
+.yarn/cache
+
+# Variáveis de ambiente (Segurança e configurações locais)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de editores (IDEs)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
